@@ -11,7 +11,6 @@ def listener():
   
     rospy.Subscriber("chatter", String, callback)
   
-      # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
   
 if __name__ == '__main__':
